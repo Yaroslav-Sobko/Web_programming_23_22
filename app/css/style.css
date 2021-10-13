@@ -19,8 +19,8 @@
 
 .styleNavbar{
     position: sticky;
-    background-color: #ffffff;
-    color: #000000;
+    background-color: #fff;
+    color: #000;
     height: 50px;
 }
 
@@ -29,14 +29,10 @@
 }
 
 .content-rightSidebar{
-    background-color: #ffffff;
+    background-color: #fff;
     height: auto;
     width: 16% ;
     float: right;
-}
-
-.content-center{
-
 }
 
 .Dashboard{
@@ -67,17 +63,69 @@
 }
 
 .content-center-inside{
-    padding: 30px;
+    padding: 15px;
     float: left;
-    width: 84%;
+    width: 84%;}
+
+.top-5-info{
+    padding: 0px;
+    margin: 15px;
 }
 
-.top-info-5{
+.top-5-info-color1{
+    background-color: #00bcd4;
+}
 
+.top-5-info-color2{
+    background-color: #8bc34a;
+}
+
+.top-5-info-color3{
+    background-color: #1d89cf;
+}
+
+.top-5-info-color4{
+    background-color: #a767dd;
+}
+
+.top-5-info-color5{
+    background-color: #ffc700;
+}
+
+.second-line-graphs{
+    padding: 0px;
+    margin: 15px;
+    background-color: #fff;
 }
 
 
-.l-r-2-4-marg{
-    margin-left: 30px;
-    margin-right: 30px;
+.third-line-elem{
+    padding: 0px;
+    margin: 15px;
+    background-color: #fff;
+}
+
+.fourth-line{
+    padding: 0px;
+    margin: 15px;
+}
+
+.cont-padd-for-line-4{
+    padding: 0px;
+}
+
+.fourth-line-left{
+    padding: 0px;
+    background-color: #fff;
+}
+
+.fourth-line-right{
+    padding: 0px;
+    background-color: #e5eaeb;
+}
+
+.fifth-line{
+    padding: 0px;
+    margin: 15px;
+    background-color: #fff;
 }
