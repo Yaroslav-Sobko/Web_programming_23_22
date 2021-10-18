@@ -9,12 +9,72 @@
     width: 100%;
 }
 
+.my-style-hr{
+    margin: 15px 0px 15px 0px;
+    opacity: 1;
+    height: 2px !important;
+    color: #243a49;
+}
+
 .styleSidebar{
     height: auto;
     width: 12% ;
-    padding: 20px 0 0 0;
+    padding: 0;
     float: left;
     background-color: #1c2b36;
+}
+
+.styleLogo{
+    padding: 0px;
+    margin: 10px 20px 10px 20px;
+
+}
+
+.marg-for-icons{
+    margin-right: 10px;
+}
+
+.p-sidebar-headwords{
+    padding: 20px 0px 20px 20px;
+    margin-bottom: 0px;
+}
+
+.marg-pad-for-p-for-icons-sidebar{
+    margin-bottom: 0px;
+    padding-left: 20px;
+}
+
+.marg-pad-for-a-for-icons-sidebar{
+    padding: 10px 0px 10px 0px;
+}
+
+.bg-color-sidebar-dashboard-1{
+    text-decoration: none;
+    color: #fff;
+    background-color: #17242d;
+}
+
+.nav-link.active2{/* Зміниі бутстрапівський варіант бо інакше нічого не працювало,*/
+    color: #fff;  /* там було .nav-link.active, і колір фону синій*/
+    background-color: #17242d;
+}
+
+.sidebar-bottom-hr{
+    margin: 10px 0px 10px 20px;
+    height: 5px !important;
+    width: 80%;
+    text-align: center;
+    color: #111a21;
+    opacity: 1;
+}
+
+.marg-pad-for-p-for-bottom-sidebar-1{
+    margin: 5px 20px 5px 20px;
+    text-align: left;
+}
+
+.marg-pad-for-p-for-bottom-sidebar-2{
+    margin: 15px 0px 5px 20px;
 }
 
 .styleNavbar{
@@ -22,10 +82,6 @@
     background-color: #fff;
     color: #000;
     height: 50px;
-}
-
-.content{
-
 }
 
 .content-rightSidebar{
@@ -70,6 +126,7 @@
 .top-5-info{
     padding: 0px;
     margin: 15px;
+    border-radius: 8px;
 }
 
 .top-5-info-color1{
@@ -111,6 +168,8 @@
 }
 
 .cont-padd-for-line-4{
+    /*margin: 0px;*/
+    max-width: 100%;
     padding: 0px;
 }
 
@@ -128,4 +187,10 @@
     padding: 0px;
     margin: 15px;
     background-color: #fff;
+}
+
+
+.margin-for-containers{
+    margin: 0px;
+    max-width: none;
 }
