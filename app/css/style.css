@@ -29,7 +29,9 @@
     margin: 10px 20px 10px 20px;
 
 }
-
+li a.nav-link:hover{
+    background-color: #273c4b;
+}
 .marg-for-icons{
     margin-right: 10px;
 }
@@ -37,6 +39,7 @@
 .p-sidebar-headwords{
     padding: 20px 0px 20px 20px;
     margin-bottom: 0px;
+    color: #7792a5;
 }
 
 .marg-pad-for-p-for-icons-sidebar{
@@ -59,22 +62,70 @@
     background-color: #17242d;
 }
 
-.sidebar-bottom-hr{
+.sidebar-bottom-progress{
     margin: 10px 0px 10px 20px;
-    height: 5px !important;
     width: 80%;
+}
+
+.sidebar-bottom-progress-bg{
+    border-radius: 2px;
+    background-color: #111a21;
+    height: 4px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+
+.sidebar-bottom-progress-line-1{
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
     text-align: center;
-    color: #111a21;
-    opacity: 1;
+    background-color: #00aeef;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 70%;
+}
+
+.sidebar-bottom-progress-line-2{
+    left: 0;
+    bottom: 0;
+    top: 0;
+    position: absolute;
+    text-align: center;
+    background-color: #ee2337;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    width: 45%;
 }
 
 .marg-pad-for-p-for-bottom-sidebar-1{
-    margin: 5px 20px 5px 20px;
-    text-align: left;
+    margin: 5px 0px 5px 20px;
 }
 
 .marg-pad-for-p-for-bottom-sidebar-2{
     margin: 15px 0px 5px 20px;
+}
+
+div.marg-pad-for-p-for-bottom-sidebar-1 p{
+    margin-bottom: 0px;
+}
+
+div.marg-pad-for-p-for-bottom-sidebar-2 p{
+    margin-bottom: 0px;
+}
+
+div.marg-pad-for-p-for-bottom-sidebar-1 table{
+    width: 90%;
+}
+
+div.marg-pad-for-p-for-bottom-sidebar-2 table{
+    width: 90%;
+}
+
+.bottom-sidebar-progress-align{
+    text-align: right;
 }
 
 .styleNavbar{
@@ -126,28 +177,61 @@
 .top-5-info{
     padding: 0px;
     margin: 15px;
-    border-radius: 8px;
+    border-radius: 6px;
+    background-repeat: no-repeat;
+    background-position: 0 95%;
 }
 
 .top-5-info-color1{
     background-color: #00bcd4;
+    background-image: url("../img/Curve_copy_3.png");
 }
 
 .top-5-info-color2{
     background-color: #8bc34a;
+    background-image: url("../img/Curve.png");
 }
 
 .top-5-info-color3{
     background-color: #1d89cf;
+    background-image: url("../img/Curve_copy.png");
 }
 
 .top-5-info-color4{
     background-color: #a767dd;
+    background-image: url("../img/Curve_copy_2.png");
 }
 
 .top-5-info-color5{
     background-color: #ffc700;
+    background-image: url("../img/Curve_copy_4.png");
 }
+
+
+
+div.top-5-info p.top-5-info-num{
+    font-family: 'Lato', sans-serif;
+    font-size: xx-large;
+    color: #fff;
+    margin: 10px 0px 0px 0px;
+}
+
+div.top-5-info p.top-5-info-inscription{
+    padding-bottom: 25px;
+    margin-bottom: 0px;
+    font-size: smaller;
+    color: #fff;
+    opacity: 0.6;
+}
+
+div.top-5-info p{
+    text-align: center;
+}
+
+div.top-5-info img{
+    margin-bottom: 7px;
+}
+
 
 .second-line-graphs{
     padding: 0px;
@@ -168,7 +252,6 @@
 }
 
 .cont-padd-for-line-4{
-    /*margin: 0px;*/
     max-width: 100%;
     padding: 0px;
 }
@@ -193,4 +276,11 @@
 .margin-for-containers{
     margin: 0px;
     max-width: none;
+}
+
+
+
+.col-for5 {
+    flex: 1 0 0;
+    width: 10%;
 }
