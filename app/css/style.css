@@ -135,6 +135,61 @@ div.marg-pad-for-p-for-bottom-sidebar-2 table{
     height: 50px;
 }
 
+div.container-fluid i{
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: x-large;
+}
+
+.nav-right{
+    float: right;
+}
+
+div.nav-right li{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+ul.navbar-nav{
+    align-items: center;
+}
+
+li.nav-item p{
+    align-items: center;
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 20px ;
+}
+
+.search-box{
+    display: flex;
+    background: #f3f3f3;
+    margin-left: 10px;
+    margin-right: 20px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+}
+
+.search-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a.search-btn i{
+    font-size: medium;
+    color: #959595;
+}
+
+.search-txt{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    padding-left: 7px;
+}
+
 .content-rightSidebar{
     background-color: #fff;
     height: auto;
@@ -178,7 +233,7 @@ div.marg-pad-for-p-for-bottom-sidebar-2 table{
     padding: 0px;
     margin: 15px;
     border-radius: 6px;
-    background-repeat: no-repeat;
+    background-repeat: repeat-x;
     background-position: 0 95%;
 }
 
@@ -205,9 +260,8 @@ div.marg-pad-for-p-for-bottom-sidebar-2 table{
 .top-5-info-color5{
     background-color: #ffc700;
     background-image: url("../img/Curve_copy_4.png");
+
 }
-
-
 
 div.top-5-info p.top-5-info-num{
     font-family: 'Lato', sans-serif;
