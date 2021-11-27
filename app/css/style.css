@@ -191,16 +191,44 @@ a.search-btn i{
 }
 
 .content-rightSidebar{
+    font-family: 'Lato', sans-serif;
     background-color: #fff;
     height: auto;
+    min-height: 100%;
     width: 16% ;
     float: right;
+    border-left: 1px solid #dee2e6;
+}
+
+.row-right-side-bar-top{
+    padding: 0px;
+}
+
+.col-right-side-bar-top-1{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+    color: #555555;
+    font-size: large;
+    border-bottom: 2px solid #555555;
+}
+
+.col-right-side-bar-top-23{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.3);
+    border-bottom: 1px solid #dee2e6;
 }
 
 .Dashboard{
     background-color: #f5f7f7;
     border-bottom: 1px solid #dee2e6;
-    padding-left: 20px;
+    padding: 0px 10px 0px 20px;
+    width: 84%;
+    float: left;
+    margin-top: 0px;
 }
 
 .p-dash{
@@ -216,13 +244,68 @@ a.search-btn i{
 }
 
 .rightSidebar-padding-border{
-    padding-bottom: 12px !important;
-    padding-top: 12px;
+    padding-bottom: 0px !important;
+    padding-top: 0px;
+}
+
+.rightSidebar-WhoToFollow{
+    padding: 10px;
+    width: 100%;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.rightSidebar-rows{
+    padding: 5px 5px 5px 20px;
+}
+
+.rightSidebar-cols{
+    padding: 5px;
+    font-size: smaller;
+}
+
+.rightSidebar-col2{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+div.rightSidebar-WhoToFollow button{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 90%;
+    background: #1d89cf;
+    text-align: center;
+    border: 0;
+    border-radius: 3px;
+    color: rgba(255,255,255, 0.7);
+    height: 34px;
+}
+
+.add-box{
+    display: flex;
+    width: 90%;
+    background: #fcfcfc;
+    margin-left: 15px;
+    margin-top: 15px;
+    height: 34px;
+    border-radius: 3px;
+    border: 1px solid #dee2e6;
+}
+
+.add-btn{
+    text-decoration: none;
+    color: #fff;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: smaller;
+    background: #1d89cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar-bot-bor{
     border-bottom: 1px solid #dee2e6;
 }
+
 
 .content-center-inside{
     padding: 15px;
