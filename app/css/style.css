@@ -243,6 +243,11 @@ a.search-btn i{
     margin-bottom: 10px;
 }
 
+.rightSidebar-titles{
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
 .rightSidebar-padding-border{
     padding-bottom: 0px !important;
     padding-top: 0px;
@@ -256,6 +261,7 @@ a.search-btn i{
 
 .rightSidebar-rows{
     padding: 5px 5px 5px 20px;
+    margin: 0;
 }
 
 .rightSidebar-cols{
@@ -267,9 +273,8 @@ a.search-btn i{
     color: rgba(0, 0, 0, 0.3);
 }
 
-div.rightSidebar-WhoToFollow button{
-    margin-top: 15px;
-    margin-left: 15px;
+.whotofollow-btn{
+    margin: 15px 0px 15px 15px;
     width: 90%;
     background: #1d89cf;
     text-align: center;
@@ -280,26 +285,41 @@ div.rightSidebar-WhoToFollow button{
 }
 
 .add-box{
-    display: flex;
     width: 90%;
+    display: flex;
     background: #fcfcfc;
-    margin-left: 15px;
-    margin-top: 15px;
+    margin: 15px 0px 1vh 15px;
     height: 34px;
-    border-radius: 3px;
-    border: 1px solid #dee2e6;
 }
 
 .add-btn{
+    width: 30%;
     text-decoration: none;
     color: #fff;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: smaller;
     background: #1d89cf;
+    border: 1px solid #1d89cf;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 !important;
+    padding-left: 0;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px ;
+}
+
+.add-txt{
+    border-left: 1px solid #dee2e6;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px ;
+    border-right: none ;
+    width: 70%;
+    outline: none;
+    background: none;
+    font-size: 16px;
+    padding-left: 7px;
+    padding-right: 0;
 }
 
 .navbar-bot-bor{
