@@ -390,12 +390,80 @@ div.top-5-info img{
 }
 
 
-.second-line-graphs{
+.second-line-graphs-1{
     padding: 0px;
     margin: 15px;
     background-color: #fff;
     position: relative;
+    width: 37%
 }
+
+.second-line-graphs-2{
+    padding: 0px;
+    margin: 15px 15px 15px auto;
+    background-color: #fff;
+    position: relative;
+}
+
+#container-2 {
+    height: 400px;
+}
+
+#container-3 {
+    display: grid;
+    left: 0;
+    height: 320px;
+    width: 900px;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+    min-width: 310px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.highcharts-data-table table {
+    font-family: Verdana, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid #ebebeb;
+    margin: 10px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+.highcharts-data-table caption {
+    padding: 1em 0;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.highcharts-data-table th {
+    font-weight: 600;
+    padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+    padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+    background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+    background: #f1f7ff;
+}
+
+.second-line-graphs-2-col{
+    text-align: center;
+    font-size: larger;
+}
+
 
 
 .third-line-elem{
@@ -415,6 +483,8 @@ div.top-5-info img{
 }
 
 .fourth-line-left{
+    display: flex;
+    justify-content: left;
     padding: 0px;
     background-color: #fff;
 }
@@ -436,8 +506,6 @@ div.top-5-info img{
     margin: 0px;
     max-width: none;
 }
-
-
 
 .col-for5 {
     flex: 1 0 0;

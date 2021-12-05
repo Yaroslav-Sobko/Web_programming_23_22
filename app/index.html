@@ -13,6 +13,8 @@
 	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 	<script src="http://code.highcharts.com/highcharts.js"></script>
 	<script src="http://code.highcharts.com/modules/exporting.js"></script>
+	<script src="https://code.highcharts.com/modules/export-data.js"></script>
+	<script src="https://code.highcharts.com/modules/accessibility.js"></script>
 </head>
 <body>
 
@@ -311,14 +313,34 @@
 					<div>
 						<div class="container margin-for-containers">
 							<div class="row">
-								<div class="col second-line-graphs">
+								<div class="col-4 second-line-graphs-1">
 									<div id="container" style=" height: 400px; ">
 
 									</div>
 									<div id="addText" style="position:absolute;top:0px;"></div>
 								</div>
-								<div class="col second-line-graphs">
-									2
+								<div class="col-sm-7 second-line-graphs-2">
+									<figure class="highcharts-figure">
+										<div id="container-2"></div>
+									</figure>
+									<div class="row">
+										<div class="col-3 second-line-graphs-2-col">
+											<p style="margin: 0">3,438</p>
+											<p style="margin: 0 0 10px 0; font-size: x-small; color: rgba(0, 0, 0, 0.5)">Orders</p>
+										</div>
+										<div class="col-3 second-line-graphs-2-col">
+											<p style="margin: 0">10,232</p>
+											<p style="margin: 0 0 10px 0; font-size: x-small; color: rgba(0, 0, 0, 0.5)">Sellings</p>
+										</div>
+										<div class="col-3 second-line-graphs-2-col">
+											<p style="margin: 0">21,550</p>
+											<p style="margin: 0 0 10px 0; font-size: x-small; color: rgba(0, 0, 0, 0.5)">Items</p>
+										</div>
+										<div class="col-3 second-line-graphs-2-col">
+											<p style="margin: 0">5,118</p>
+											<p style="margin: 0 0 10px 0; font-size: x-small; color: rgba(0, 0, 0, 0.5)">Customers</p>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -589,7 +611,9 @@
 									<div class="container margin-for-containers">
 										<div class="row">
 											<div class="col-9 fourth-line-left">
-												left
+												<figure class="highcharts-figure">
+													<div id="container-3"></div>
+												</figure>
 											</div>
 											<div class="col-3 fourth-line-right">
 												<div class="fourth-line-right-title">Reports</div>
